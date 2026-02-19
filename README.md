@@ -5,8 +5,10 @@
 
 <br><br>
 
-## Download
-**TODO** (**without** any dependency, plain Vanilla JavaScript);
+## TODO
+**Without** any dependency, plain Vanilla JavaScript.
+
+<br><br>
 
 # Contact
 <img src="https://kekse.biz/github.php?override=github:pdf2txt&draw&text=pdf2txt@kekse.biz&angle=6&size=38pt&fg=150,20,90&font=OpenSans&ro&readonly&h=64&v=16" />
