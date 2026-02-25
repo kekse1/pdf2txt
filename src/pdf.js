@@ -1082,17 +1082,8 @@ const PDFInterpreter = PDF.Interpreter = class PDFInterpreter
 	{
 		const m = this.multiply(this.txt, this.ctm);
 		return this.elements.push({ type: 'text',
-			data: _data, x: m[4], y: m[5],
-			fontSize: m[3], matrix: m });
-	}
-	
-	//
-	//TODO/wird das passend aufgerufen, statt original '.emitElement("text", ..)' immer?!?
-	//
-	decodeAndEmit(_value)
-	{
-		this.emitElement('text',
-			this.decodeString(_value));
+			data: this.decodeString(_data),
+			x: m[4], y: m[5], fontSize: m[3], matrix: m });
 	}
 	
 	decodeString(_value)
