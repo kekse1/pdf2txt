@@ -3,6 +3,8 @@
 # `pdf2txt`
 **TODO**
 
+Actually there's a **first** version in here, but it won't work correctly right now..
+
 <br><br>
 
 ## TODO
