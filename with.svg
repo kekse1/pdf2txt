@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="75" height="20" viewBox="0 0 75 20">
+
+		<!-- Copyright (c) Sebastian Kucharczyk <kuchen@kekse.biz> -->
+
+	<clipPath id="r"><rect width="75" height="20" rx="3" fill="#fff"/></clipPath>
+	<g clip-path="url(#r)">
+		<rect width="45" height="20" fill="#333"/>
+		<rect x="45" width="30" height="20" fill="#ff9900"/>
+	</g>
+	<g fill="#fff" font-family="sans-serif" font-size="14">
+		<text x="24" y="15" text-anchor="middle" fill="#fff">with</text>
+		<text x="61" y="15" text-anchor="middle" fill="#000" font-weight="bold">A<tspan font-weight="normal">.</tspan>I<tspan font-weight="normal">.</tspan></text>
+	</g>
+</svg>
